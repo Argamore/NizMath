@@ -1,7 +1,6 @@
 package nizmath;
 
 public class App {
-
 	public static void main(String[] args) {
 		try(java.util.Scanner unos = new java.util.Scanner(System.in)){
 			System.out.print("Unesite 10 brojeva u niz: ");
