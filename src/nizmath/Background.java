@@ -18,6 +18,11 @@ public class Background {
 	}
 	// Metoda za ispisivanje zbira niza
 	public static void zbir(int[] niz){
+		double suma =0;
+		for (int i=0; i<niz.length;i++){
+			suma+=niz[i];
+		}
+		System.out.println("Zbir niza je : " + suma);
 		
 	}
 	// Metoda za ispisivanje prosjeka brojeva niza
