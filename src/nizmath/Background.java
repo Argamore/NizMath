@@ -24,20 +24,14 @@ public class Background {
 	}
 
 	// Metoda za ispisivanje zbira niza
-<<<<<<< HEAD
+
 	public static void zbir(int[] niz){
 		double suma =0;
 		for (int i=0; i<niz.length;i++){
 			suma+=niz[i];
 		}
 		System.out.println("Zbir niza je : " + suma);
-		
-=======
-	public static void zbir(int[] niz) {
-
->>>>>>> e5d621ee636f5e99be2e31a62d7554012d860299
 	}
-
 	// Metoda za ispisivanje prosjeka brojeva niza
 	public static void prosjek(int[] niz) {
 		double suma = 0;
