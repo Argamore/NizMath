@@ -1,5 +1,7 @@
 package nizmath;
 
+import java.util.Arrays;
+
 public class Background {
 	// Metoda za ispisivanje najmanjeg broja u nizu
 	public static void najmanji(int[] niz) {
@@ -43,6 +45,10 @@ public class Background {
 
 	// Metoda za sortiranje niza od najmanjeg ka najvecem broja
 	public static void sortiranje(int[] niz) {
-
+		Arrays.sort(niz);
+		System.out.print("Sortiran niz: ");
+		for(int i: niz){
+			System.out.print(i + " ");
+		}
 	}
 }
