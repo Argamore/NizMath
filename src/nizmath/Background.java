@@ -21,7 +21,7 @@ public class Background {
 	public static void unikatni(int[] niz){
 		
 	}
-	// Metoda za sortiranje niza od najveæeg ka najmanjeg broja
+	// Metoda za sortiranje niza od najmanjeg ka najvecem broja
 	public static void sortiranje(int[] niz){
 		
 	}
