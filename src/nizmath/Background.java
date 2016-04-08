@@ -22,7 +22,12 @@ public class Background {
 	}
 	// Metoda za ispisivanje prosjeka brojeva niza
 	public static void prosjek(int[] niz){
-		
+		double suma=0;
+		for (int i=0; i<niz.length;i++){
+			suma+=niz[i];
+		}
+		System.out.println("Prosjek niza je: "+suma/niz.length);
+	
 	}
 	// Metoda za ispisivanje unikatnih brojeva u nizu
 	public static void unikatni(int[] niz){
