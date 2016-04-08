@@ -11,7 +11,6 @@ public class App {
 			}
 			Background.najmanji(niz);
 			Background.najveci(niz);
-			Background.zbir(niz);
 			Background.prosjek(niz);
 			Background.unikatni(niz);
 			Background.sortiranje(niz);
