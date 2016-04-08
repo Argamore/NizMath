@@ -18,7 +18,13 @@ public class Background {
 
 	// Metoda za ispisivanje najveceg broja u nizu
 	public static void najveci(int[] niz) {
-
+		int najveci = niz[0];
+		for (int i = 0; i < niz.length; i++) {
+			if (niz[i] > najveci) {
+				najveci = niz[i];
+			}
+		}
+		System.out.println("Najveci broj u nizu je: " + najveci);
 	}
 
 	// Metoda za ispisivanje zbira niza
