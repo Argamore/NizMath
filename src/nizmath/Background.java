@@ -1,6 +1,8 @@
 package nizmath;
 
 import java.util.Arrays;
+import java.util.HashSet;
+import java.util.Set;
 
 public class Background {
 	// Metoda za ispisivanje najmanjeg broja u nizu
@@ -40,7 +42,14 @@ public class Background {
 
 	// Metoda za ispisivanje unikatnih brojeva u nizu
 	public static void unikatni(int[] niz) {
-
+		Set<Integer> set = new HashSet<>(); 
+		for(int i = 0; i < niz.length; i++){
+			set.add(niz[i]);
+		}
+		System.out.print("Unikatni brojevi su: ");
+		for(Integer i: set)
+			System.out.print(i + " ");
+		System.out.println();
 	}
 
 	// Metoda za sortiranje niza od najmanjeg ka najvecem broja
